@@ -205,81 +205,15 @@ const Header = props => {
           )}
         </Disclosure>
 
-        <header className="bg-white shadow">
-          <div className="max-w-7xl mx-auto py-2 px-4 sm:px-6 lg:px-8">
-            <p className="font-bold text-gray-900">Forms and Landers</p>
-          </div>
-        </header>
+     
         <main>
-          <div class="mt-1 mb-1 pt-0 bg-white">
-            <nav aria-label="Top" class="mx-auto ">
-              <div class="border-b border-gray-200">
-                <div class="flex items-center max-w-7xl mx-auto py-0 px-4 sm:px-6 lg:px-8">
-                  <div class="lg:block">
-                    <div class="h-full flex space-x-8">
-                      <div class="flex">
-                        <div class="relative flex">
-                          <Link
-                            to="/create-automation" class="relative z-10 flex items-center text-sm">
-                            Create Forms
-                          </Link>
-                        </div>
-                      </div>
-
-                      <Link to="#" class="relative z-10 flex items-center text-sm">
-                        Create Landing Page
-                      </Link>
-                    </div>
-                  </div>
-
-                  <div class="ml-auto flex items-center">
-                    <div class="flex lg:ml-6">
-                      <Link
-                        to="#"
-                        class="p-2 text-gray-400 hover:text-gray-500"
-                      >
-                        <span class="sr-only">Search</span>
-                        <svg
-                          class="w-6 h-6"
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                          aria-hidden="true"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-                          />
-                        </svg>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </nav>
-          </div>
+         
 
           <div className="max-w-7xl mx-auto py-2 px-4 sm:px-6 lg:px-8">
             <div class="text-sm text-gray-500">
             {/* Replace with your content */}     
 
-                <div class="my-16 bg-white rounded-2xl border shadow-xl p-10">
-                <div class="flex flex-col items-center space-y-4">
-                  <h1 class="font-bold text-2xl text-gray-700 w-4/6 text-center">You haven’t created any Forms or Landing Page</h1>
-                  <p class="text-sm text-gray-500 text-center w-5/6">
-                  Once you create automations, they will appear here. </p>
-                  <p class="text-sm text-gray-500 text-center w-5/6">
-                    Get started and turn on a welcome journey for new subscribers or try another automation.
-                 </p>
-                  <div class="order-3 mt-2 flex-shrink-0 w-full sm:order-2 sm:mt-0 sm:w-auto">
-                  <Link to="/create-automation" class="flex items-center justify-center px-4 py-2 border rounded-md shadow-sm text-sm font-medium text-indigo-600 bg-white hover:bg-indigo-50"> Create forms </Link>
-                  </div>
-                </div>	
-                </div>
-
+              
 
 
 
